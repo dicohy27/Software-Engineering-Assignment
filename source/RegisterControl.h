@@ -2,6 +2,7 @@
 #include <string>
 #include "UserCollection.h"
 #include "RegisterUI.h"
+#include "User.h"
 using namespace std;
 class RegisterUI;
 class RegisterControl

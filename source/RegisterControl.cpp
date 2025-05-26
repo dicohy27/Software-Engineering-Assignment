@@ -1,6 +1,4 @@
 #include "RegisterControl.h"
-#include "RegisterUI.h"
-#include "User.h"
 
 RegisterControl::RegisterControl(UserCollection *registeredUsers)
     : registeredUsers(registeredUsers)

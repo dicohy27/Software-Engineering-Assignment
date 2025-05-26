@@ -1,5 +1,9 @@
 #pragma once
 #include <string>
+#include "LogoutControl.h"
+#include <iostream>
+using namespace std;
+
 using namespace std;
 class LogoutControl;
 class LogoutUI
