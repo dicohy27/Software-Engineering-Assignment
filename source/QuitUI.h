@@ -1,5 +1,7 @@
 ﻿#pragma once
 #include "QuitControl.h"
+#include <iostream>
+using namespace std;
 class QuitControl;
 class QuitUI // QuitUI class that provides the user interface for quitting the application
 {
