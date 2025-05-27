@@ -6,9 +6,9 @@ bool User::isEqual(string id, string password)
 {
     return this->id == id && this->password == password;
 }
-void User::addRentedBicycle(Bicycle *bicycle)
+void User::addRentedBicycle(Bicycle *newBicycle)
 {
-    rentedBicycles.addNewBicycle(bicycle);
+    rentedBicycles.addNewBicycle(newBicycle);
 }
 BicycleCollection User::getRentedBicycles()
 {

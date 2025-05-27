@@ -12,5 +12,6 @@ class BicycleCollection
 public:
     void addNewBicycle(Bicycle *newBicycle);
     Bicycle *getBicycleById(string id);
-    vector<array<string, 2>> getAllBicycleInfos();
+    Bicycle **getBicycles();
+    int getBicycleCount();
 };

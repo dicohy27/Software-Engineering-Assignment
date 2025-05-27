@@ -1,6 +1,7 @@
 #pragma once
 #include "ShowRentedBicyclesUI.h"
 #include "CurrentUser.h"
+#include "Bicycle.h"
 class ShowRentedBicyclesUI;
 class ShowRentedBicyclesControl
 {
@@ -8,7 +9,8 @@ class ShowRentedBicyclesControl
     CurrentUser *currentUser;
 
 public:
-    ShowRentedBicyclesControl(CurrentUser *user);
+    ShowRentedBicyclesControl(CurrentUser *currentUser);
     ShowRentedBicyclesUI *getUI();
-    vector<array<string, 2>> getRentedBicycleInfos();
+    Bicycle **getRentedBicycles();
+    int getRentedBicycleCount();
 };
