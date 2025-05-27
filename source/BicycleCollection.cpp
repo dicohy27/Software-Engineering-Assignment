@@ -1,4 +1,4 @@
-#include "BicycleCollection.h"
+﻿#include "BicycleCollection.h"
 void BicycleCollection::addNewBicycle(Bicycle *newBicycle)
 {
     if (bicycleCount < 100)

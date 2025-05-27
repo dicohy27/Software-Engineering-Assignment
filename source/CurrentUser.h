@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "User.h"
 class CurrentUser // CurrentUser class that manages the currently logged-in user
 {

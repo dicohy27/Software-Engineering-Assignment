@@ -1,4 +1,4 @@
-#include "LoginUI.h"
+﻿#include "LoginUI.h"
 
 LoginUI::LoginUI(LoginControl *control) : control(control) {}
 void LoginUI::login()

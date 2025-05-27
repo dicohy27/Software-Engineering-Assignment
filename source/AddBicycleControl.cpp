@@ -1,4 +1,4 @@
-#include "AddBicycleControl.h"
+﻿#include "AddBicycleControl.h"
 AddBicycleControl::AddBicycleControl(BicycleCollection *collection)
     : registeredCollection(collection)
 {

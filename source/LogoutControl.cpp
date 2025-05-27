@@ -1,4 +1,4 @@
-#include "LogoutControl.h"
+﻿#include "LogoutControl.h"
 LogoutControl::LogoutControl(CurrentUser *currentUser) : currentUser(currentUser)
 {
     ui = new LogoutUI(this);

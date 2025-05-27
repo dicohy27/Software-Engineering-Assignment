@@ -1,4 +1,4 @@
-#include "RegisterControl.h"
+﻿#include "RegisterControl.h"
 
 RegisterControl::RegisterControl(UserCollection *registeredUsers)
     : registeredUsers(registeredUsers)

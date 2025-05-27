@@ -1,4 +1,4 @@
-#include "RegisterUI.h"
+﻿#include "RegisterUI.h"
 
 RegisterUI::RegisterUI(RegisterControl *control) : control(control) {}
 void RegisterUI::createNewUser()

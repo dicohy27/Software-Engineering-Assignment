@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "QuitUI.h"
 #include <cstdlib>
 class QuitUI;

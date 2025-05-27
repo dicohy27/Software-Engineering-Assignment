@@ -1,4 +1,4 @@
-// 헤더 선언
+﻿// 헤더 선언
 #include <iostream>
 #include <fstream>
 #include <string.h>

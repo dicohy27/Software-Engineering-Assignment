@@ -1,4 +1,4 @@
-#include "ShowRentedBicyclesControl.h"
+﻿#include "ShowRentedBicyclesControl.h"
 ShowRentedBicyclesControl::ShowRentedBicyclesControl(CurrentUser *currentUser)
     : currentUser(currentUser)
 {

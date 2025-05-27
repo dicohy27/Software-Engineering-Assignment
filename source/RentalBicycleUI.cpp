@@ -1,4 +1,4 @@
-#include "RentalBicycleUI.h"
+﻿#include "RentalBicycleUI.h"
 RentalBicycleUI::RentalBicycleUI(RentalBicycleControl *control) : control(control) {}
 void RentalBicycleUI::rentalBicycle()
 {

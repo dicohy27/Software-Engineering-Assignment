@@ -1,4 +1,4 @@
-#include "LoginControl.h"
+﻿#include "LoginControl.h"
 
 LoginControl::LoginControl(UserCollection *registeredUsers, CurrentUser *currentUser) : registeredUsers(registeredUsers), currentUser(currentUser)
 {

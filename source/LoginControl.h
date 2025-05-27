@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "LoginUI.h"
 #include "UserCollection.h"
 #include "CurrentUser.h"

@@ -1,4 +1,4 @@
-#include "AddBicycleUI.h"
+﻿#include "AddBicycleUI.h"
 AddBicycleUI::AddBicycleUI(AddBicycleControl *control) : control(control) {}
 void AddBicycleUI::createNewBicycle()
 {

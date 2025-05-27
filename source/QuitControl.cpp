@@ -1,4 +1,4 @@
-#include "QuitControl.h"
+﻿#include "QuitControl.h"
 QuitControl::QuitControl()
 {
     ui = new QuitUI(this);

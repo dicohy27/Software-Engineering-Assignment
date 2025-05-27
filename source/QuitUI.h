@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "QuitControl.h"
 class QuitControl;
 class QuitUI // QuitUI class that provides the user interface for quitting the application

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "User.h"
 class UserCollection // UserCollection class that manages a collection of users
 {

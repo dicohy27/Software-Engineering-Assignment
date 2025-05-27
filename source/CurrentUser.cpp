@@ -1,4 +1,4 @@
-#include "CurrentUser.h"
+﻿#include "CurrentUser.h"
 User *CurrentUser::getCurrentUser()
 {
     return currentUser;

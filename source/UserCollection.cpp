@@ -1,4 +1,4 @@
-#include "UserCollection.h"
+﻿#include "UserCollection.h"
 UserCollection::UserCollection()
 {
     // Initialize the user collection with a default admin user

@@ -1,4 +1,4 @@
-#include "RentalBicycleControl.h"
+﻿#include "RentalBicycleControl.h"
 RentalBicycleControl::RentalBicycleControl(BicycleCollection *collection, CurrentUser *user)
     : registeredCollection(collection), currentUser(user)
 {
