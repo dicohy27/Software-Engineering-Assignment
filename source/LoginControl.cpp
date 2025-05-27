@@ -10,6 +10,6 @@ LoginUI *LoginControl::getUI()
 }
 void LoginControl::login(string id, string password)
 {
-    User *user = registeredUsers->getCorrespondUser(id);
+    User *user = registeredUsers->getCorrespondUser(id, password);
     currentUser->setCurrentUser(user);
 }
