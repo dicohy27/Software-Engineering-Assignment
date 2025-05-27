@@ -5,5 +5,5 @@ void AddBicycleUI::createNewBicycle()
     string id, productName;
     cin >> id >> productName;
     control->createNewBicycle(id, productName);
-    cout << id << productName << endl;
+    cout << id << ' ' << productName << endl;
 }
