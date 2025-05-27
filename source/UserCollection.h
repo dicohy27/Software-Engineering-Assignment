@@ -8,5 +8,5 @@ class UserCollection
 public:
     UserCollection();
     void addNewUser(User *newUser);
-    User *getCorrespondUser(string id);
+    User *getCorrespondUser(string id, string password);
 };

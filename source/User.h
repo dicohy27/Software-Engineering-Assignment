@@ -12,7 +12,7 @@ class User
 public:
     User(string id, string password, string phoneNumber);
     bool isEqual(string id, string password);
-    void addRentedBicycle(Bicycle *bicycle);
+    void addRentedBicycle(Bicycle *newBicycle);
     BicycleCollection getRentedBicycles();
     string getId();
 };

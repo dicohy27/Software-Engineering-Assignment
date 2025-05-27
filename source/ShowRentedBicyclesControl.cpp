@@ -11,8 +11,8 @@ ShowRentedBicyclesUI *ShowRentedBicyclesControl::getUI()
 Bicycle **ShowRentedBicyclesControl::getRentedBicycles()
 {
     User *user = currentUser->getCurrentUser();
-    auto bicycles = user->getRentedBicycles();
-    return bicycles.getBicycles();
+    auto bicycleCollection = user->getRentedBicycles();
+    return bicycleCollection.getBicycles();
 }
 int ShowRentedBicyclesControl::getRentedBicycleCount()
 {
